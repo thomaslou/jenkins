@@ -1,0 +1,21 @@
+<modelVersion>4.0.0</modelVersion> 
+<groupId>com.company.project</groupId>  
+<artifactId>module</artifactId>  
+<packaging>war</packaging>  
+<version>0.0.1-SNAPSHOT</version>  
+<name>test Maven Webapp</name>  
+<url>http://maven.apache.org</url> 
+<build>  
+    <finalName>helloworld</finalName>  
+    <plugins>  
+        <plugin>  
+            <groupId>org.apache.maven.plugins</groupId>  
+            <artifactId>maven-integration-plugin</artifactId>  
+            <version>3.5.1</version>  
+            <configuration>  
+                <source>1.8</source>  
+                <target>1.8</target>  
+            </configuration>  
+        </plugin>  
+    </plugins>  
+</build>  
